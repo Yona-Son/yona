@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            display: flex;
+            padding: 50px 50px;
+            border: 1px dotted slateblue;
+            flex-direction: column
+        }
+
+        .singer img, a{
+            margin-bottom: 20px;
+        }
+
+        a {
+            
+            cursor: pointer;
+        }
+
+        .contact label, input {
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section class="hello">
+        <strong>
+            안녕하세요 저는 손화연 입니다! 웹퍼블리셔를 목표로 열심히하겠습니다.
+        </strong>
+    </section>
+    <section class="food">
+        <ul>
+            <li>햄버거</li>
+            <li>초밥</li>
+            <li>카레</li>
+            <li>케이크</li>
+            <li>커피</li>
+        </ul>
+    </section>
+    <section class="singer">
+        <ul></ul>
+        <img src="/img/096798e58e2f0f98258165df784eaaf8.jpg" alt="" width="400px">
+        <a href="https://www.youtube.com/channel/UCaWxydGDZC3UO-ot4W6j7bQ">▶︎좋아하는 가수 링크 바로가기</a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QKBmZddFPjs?si=2FOO9GZsIVYI_hkC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section class="profile">
+        <table border="1" width="500" height="200">
+            <th colspan = "3" bgcolor="pailblue">인적사항</th>
+            <tr>
+                <td align="center">이름</td>
+                <td>손화연</td>
+            </tr>
+            <tr>
+                <td align="center">생년월일</td>
+                <td>1996. 11. 27</td>
+            </tr>
+            <tr>
+                <td align="center">거주지</td>
+                <td>서을</td>
+            </tr>
+        </table>
+    </section>
+    <section class="contact">
+        <label for="contact">연락 문의</label>
+        <input type="text" id="contact" style="width: 520px; height: 60px;">
+        <button>제출하기</button>
+    </section>
+</body>
+</html>
